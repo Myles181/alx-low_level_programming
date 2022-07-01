@@ -1,9 +1,15 @@
 #include <stdio.h>
-
+/*
+ *
+ * main - Entry point
+ *
+ *Descirption: with proper grammar, but the outcome is a piece of art
+ *
+ * Return: Always 0 (Success)
+ *
+ */
 int main(void)
 {
-	 /*use printf instead of puts*/
-	/* return 0 to success*/
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
