@@ -12,8 +12,8 @@ int main(void)
 {
 	char a;
 	int b;
-	int c;
-	long int d;
+	long int c;
+	long long int d;
 	float e;
 
 	printf("Size of a char: %zu byte(s)\n", sizeof(a));
