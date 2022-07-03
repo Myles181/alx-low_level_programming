@@ -2,15 +2,21 @@
 
 #include <time.h>
 
-/* more headers goes there */
+#include <stdio.h>
+/**
+ * main - main
+ *
+ * Description: if, else and else if statement
+ *
+ * Return - return 0 for success
+ */
 
-
-
-/* betty style doc for function main goes there */
 
 int main(void)
 
-{
+int main(void)
+
+;{
 
 	int n;
 
@@ -23,21 +29,20 @@ int main(void)
  /* display is positive */
 	if (n > 0)
 {
-	printf("is positive\n");
+	printf("%d is positive", n);
 }
 /* when n == 0 */
 /* display is zero */
 	else if (n == 0)
 {
-	printf("is zero\n");
+	printf("%d is zero", n);
 }
 /* when n < 0 */
 /* display is negative */
 	else if (n < 0)
 {
-	printf("is negative\n");
+	printf("%d is negative", n);
 }
 /* Return - return (0) */
-	return (0);
-
-}
+	return (0)
+	}
