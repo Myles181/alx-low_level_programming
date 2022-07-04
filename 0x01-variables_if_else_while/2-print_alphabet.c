@@ -4,7 +4,7 @@
  *
  * Description: Using putchar
  *
- * Result: Always 0 for success
+ * Return: Always 0 for success
  */
 int main(void)
 {
