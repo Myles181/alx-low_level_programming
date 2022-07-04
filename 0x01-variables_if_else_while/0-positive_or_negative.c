@@ -1,48 +1,32 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
+
 /**
- * main - main
+ * main - Entry point
  *
- * Description: if, else and else if statement
+ *Description: Using if, else if and else statemenet
  *
- * Return - return 0 for success
+ * Return: Always 0 (Success)
  */
-
-
 int main(void)
-
-int main(void)
-
-;{
-
+{
 	int n;
 
-
-
 	srand(time(0));
-
 	n = rand() - RAND_MAX / 2;
-/* when n > 0 */
- /* display is positive */
 	if (n > 0)
-{
-	printf("%d is positive", n);
-}
-/* when n == 0 */
-/* display is zero */
-	else if (n == 0)
-{
-	printf("%d is zero", n);
-}
-/* when n < 0 */
-/* display is negative */
-	else if (n < 0)
-{
-	printf("%d is negative", n);
-}
-/* Return - return (0) */
-	return (0)
+	{
+	printf("%d is positive\n", n);
 	}
+	else if (n < 0)
+	{
+	printf("%d is negative\n", n);
+	}
+	else
+	{
+	printf("%d is zero\n", n);
+	}
+
+	return (0);
+}
