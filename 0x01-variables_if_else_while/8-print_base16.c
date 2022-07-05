@@ -1,27 +1,29 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - main block
  *
- * Description: print lower case numbers of base 16 with putchar
+ * Description: prints all single digit numbers of base 10
  *
- * Return: Always 0 for success
+ * Return: 0
  */
+
 int main(void)
 {
-	char ch = 0;
-	char ch1 = 'a';
+	char d = '0';
+	char c = 'a';
+	while (d <= '9')
+	{
+		putchar(d);
+		d++;
+	}
 
-	while (ch < 10)
-{
-	putchar(ch);
-	ch++;
-}
-	while (ch1 < 'g')
-{
-		putchar(ch1);
-		ch1++;
-}
+	while (c <= 'f')
+	{
+		putchar(c);
+		c++;
+	}
 	putchar('\n');
 
 	return (0);
+
 }
