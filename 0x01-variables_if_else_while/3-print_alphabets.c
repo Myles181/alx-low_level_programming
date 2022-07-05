@@ -1,35 +1,27 @@
 #include <stdio.h>
 /**
- * main - Entry main
+ * main - Entry point
  *
- * Description: Use of putchar print lower_case and upper_case
+ * Description: Using putchar
  *
- * Return: Always 0 for success
+ * Return: Always 0 for succes
  */
 int main(void)
 {
 	char ch = 'a';
 	char CH = 'A';
-<<<<<<< HEAD
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	for (CH = 'A'; CH <= 'Z'; CH++)
-	putchar(ch);
-	putchar(CH);
-=======
-	
-	while (ch <= 'z') 
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
-	while (CH <= 'Z') 
+	while (CH <= 'Z')
 	{
 		putchar(CH);
 		CH++;
 	}
 	putchar('\n');
->>>>>>> master
 
 	return (0);
 }
