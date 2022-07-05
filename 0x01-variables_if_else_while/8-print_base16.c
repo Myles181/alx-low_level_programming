@@ -8,18 +8,19 @@
  */
 int main(void)
 {
-	char ch = '0';
+	char ch = 0;
 	char ch1 = 'a';
-	while (ch < '10');
-	{
+
+	while (ch < 10)
+{
 	putchar(ch);
 	ch++;
-	}
-	while (ch1 < 'g');
-	{
+}
+	while (ch1 < 'g')
+{
 		putchar(ch1);
 		ch1++;
-	}
+}
 	putchar('\n');
 
 	return (0);
