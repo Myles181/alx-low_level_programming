@@ -1,11 +1,10 @@
 #include "main.h"
 /**
  * _islower - Entry point
- *@c: the variable
- * Descripption: show if 'c' is a lower_case letter
- * return 1 if true and 0 if false
  *
- * Return: 0
+ * @c: Show c is a lower case letter
+ *
+ * Return: 0 or 1
  */
 int _islower(int c)
 {
