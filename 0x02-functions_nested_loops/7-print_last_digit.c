@@ -1,15 +1,18 @@
 #include "main.h"
 /**
- * print_last - Entry point
- *@n: the int is used to extract the last digit
+ * print_last_digit - Entry point
+ * @num: the int is used to extract the last digit
  * Return: return last number
  */
+
 int print_last_digit(int num)
 {
-	int num;
-	int last_num = num % 10;
+	int last = num % 10;
 
-	_putchar(last_num);
+	if (last < 0)
+	last *= -1;
+	_putchar(last + '0');
+	_putchar('\n');
 
-	return (last_num);
+	return (last);
 }
