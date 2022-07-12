@@ -1,0 +1,206 @@
+[33m0bc8152[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: commit: uppercase
+[33m22e8539[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{1}: merge master: Fast-forward
+[33m71ea4cf[m HEAD@{2}: checkout: moving from master to main
+[33m22e8539[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{3}: commit (merge): changes
+[33mbeff242[m HEAD@{4}: checkout: moving from main to master
+[33m71ea4cf[m HEAD@{5}: commit: commit
+[33me93a8ba[m HEAD@{6}: checkout: moving from master to main
+[33mbeff242[m HEAD@{7}: commit: commit
+[33me93a8ba[m HEAD@{8}: merge main: Fast-forward
+[33m7df20b2[m HEAD@{9}: checkout: moving from main to master
+[33me93a8ba[m HEAD@{10}: commit: commit
+[33m7df20b2[m HEAD@{11}: merge master: Fast-forward
+[33mff2e74c[m HEAD@{12}: checkout: moving from master to main
+[33m7df20b2[m HEAD@{13}: commit: commit
+[33mff2e74c[m HEAD@{14}: merge main: Fast-forward
+[33m5005b70[m HEAD@{15}: checkout: moving from main to master
+[33mff2e74c[m HEAD@{16}: commit: correction
+[33m5005b70[m HEAD@{17}: merge master: Fast-forward
+[33maf3dc31[m HEAD@{18}: checkout: moving from master to main
+[33m5005b70[m HEAD@{19}: commit: repair
+[33maf3dc31[m HEAD@{20}: merge main: Fast-forward
+[33m2964d16[m HEAD@{21}: checkout: moving from main to master
+[33maf3dc31[m HEAD@{22}: commit: correction
+[33m2964d16[m HEAD@{23}: merge master: Fast-forward
+[33mf92b37e[m HEAD@{24}: checkout: moving from master to main
+[33m2964d16[m HEAD@{25}: commit: commit
+[33mf92b37e[m HEAD@{26}: merge main: Fast-forward
+[33m699772f[m HEAD@{27}: checkout: moving from main to master
+[33mf92b37e[m HEAD@{28}: commit: commit
+[33m699772f[m HEAD@{29}: merge master: Fast-forward
+[33m2f76013[m HEAD@{30}: checkout: moving from master to main
+[33m699772f[m HEAD@{31}: commit: commit
+[33m2f76013[m HEAD@{32}: merge main: Fast-forward
+[33m2a7cf60[m HEAD@{33}: checkout: moving from main to master
+[33m2f76013[m HEAD@{34}: commit: commit
+[33m2a7cf60[m HEAD@{35}: merge master: Fast-forward
+[33m4d93eb6[m HEAD@{36}: checkout: moving from master to main
+[33m2a7cf60[m HEAD@{37}: commit: commit
+[33m4d93eb6[m HEAD@{38}: merge main: Fast-forward
+[33m6ce1fd1[m HEAD@{39}: checkout: moving from main to master
+[33m4d93eb6[m HEAD@{40}: commit: commit
+[33m6ce1fd1[m HEAD@{41}: merge master: Fast-forward
+[33m3c8c54c[m HEAD@{42}: checkout: moving from master to main
+[33m6ce1fd1[m HEAD@{43}: commit: commit
+[33m3c8c54c[m HEAD@{44}: merge main: Fast-forward
+[33ma6d8a9f[m HEAD@{45}: checkout: moving from main to master
+[33m3c8c54c[m HEAD@{46}: commit: commit
+[33ma6d8a9f[m HEAD@{47}: merge master: Fast-forward
+[33mdbad776[m HEAD@{48}: checkout: moving from master to main
+[33ma6d8a9f[m HEAD@{49}: commit: commit
+[33mdbad776[m HEAD@{50}: merge main: Fast-forward
+[33mce7dfc8[m HEAD@{51}: checkout: moving from main to master
+[33mdbad776[m HEAD@{52}: commit: commit
+[33mce7dfc8[m HEAD@{53}: merge master: Fast-forward
+[33m09b0eb9[m HEAD@{54}: checkout: moving from master to main
+[33mce7dfc8[m HEAD@{55}: commit: commit
+[33m09b0eb9[m HEAD@{56}: merge main: Fast-forward
+[33mfba6885[m HEAD@{57}: checkout: moving from main to master
+[33m09b0eb9[m HEAD@{58}: commit: commit
+[33mfba6885[m HEAD@{59}: merge master: Fast-forward
+[33m8e8076d[m HEAD@{60}: checkout: moving from master to main
+[33mfba6885[m HEAD@{61}: commit: commit
+[33m8e8076d[m HEAD@{62}: merge main: Fast-forward
+[33m4b04725[m HEAD@{63}: checkout: moving from main to master
+[33m8e8076d[m HEAD@{64}: commit: commit
+[33m4b04725[m HEAD@{65}: merge master: Fast-forward
+[33m4c26a06[m HEAD@{66}: checkout: moving from master to main
+[33m4b04725[m HEAD@{67}: commit: warnings
+[33m4c26a06[m HEAD@{68}: merge main: Fast-forward
+[33m51c42a1[m HEAD@{69}: checkout: moving from main to master
+[33m4c26a06[m HEAD@{70}: commit: commit
+[33m51c42a1[m HEAD@{71}: merge master: Fast-forward
+[33mfbe365d[m HEAD@{72}: checkout: moving from master to main
+[33m51c42a1[m HEAD@{73}: commit: commit
+[33mfbe365d[m HEAD@{74}: merge main: Fast-forward
+[33md9e29d8[m HEAD@{75}: checkout: moving from main to master
+[33mfbe365d[m HEAD@{76}: commit: commit
+[33md9e29d8[m HEAD@{77}: merge master: Fast-forward
+[33me763d8c[m HEAD@{78}: checkout: moving from master to main
+[33md9e29d8[m HEAD@{79}: commit: commit
+[33me763d8c[m HEAD@{80}: merge main: Fast-forward
+[33mf9d80a4[m HEAD@{81}: checkout: moving from main to master
+[33me763d8c[m HEAD@{82}: commit: commit
+[33mf9d80a4[m HEAD@{83}: merge master: Fast-forward
+[33ma7720ec[m HEAD@{84}: checkout: moving from master to main
+[33mf9d80a4[m HEAD@{85}: commit: commit
+[33ma7720ec[m HEAD@{86}: merge main: Fast-forward
+[33mf5118d6[m HEAD@{87}: checkout: moving from main to master
+[33ma7720ec[m HEAD@{88}: commit: commit
+[33mf5118d6[m HEAD@{89}: merge master: Fast-forward
+[33mf3dc983[m HEAD@{90}: checkout: moving from master to main
+[33mf5118d6[m HEAD@{91}: commit: commit
+[33mf3dc983[m HEAD@{92}: merge main: Fast-forward
+[33mb668ed6[m HEAD@{93}: checkout: moving from main to master
+[33mf3dc983[m HEAD@{94}: commit: commit
+[33mb668ed6[m HEAD@{95}: merge master: Fast-forward
+[33m13059bf[m HEAD@{96}: checkout: moving from master to main
+[33mb668ed6[m HEAD@{97}: commit: commit
+[33m13059bf[m HEAD@{98}: merge main: Fast-forward
+[33mf2bf820[m HEAD@{99}: checkout: moving from main to master
+[33m13059bf[m HEAD@{100}: commit: commit
+[33m3f804db[m HEAD@{101}: commit: commit
+[33mf2bf820[m HEAD@{102}: merge master: Fast-forward
+[33m7908ee6[m HEAD@{103}: checkout: moving from master to main
+[33mf2bf820[m HEAD@{104}: commit: commit
+[33m7908ee6[m HEAD@{105}: merge main: Fast-forward
+[33mfebad9c[m HEAD@{106}: checkout: moving from main to master
+[33m7908ee6[m HEAD@{107}: commit: commit
+[33mfebad9c[m HEAD@{108}: merge master: Fast-forward
+[33mf1c1078[m HEAD@{109}: checkout: moving from master to main
+[33mfebad9c[m HEAD@{110}: commit: commit
+[33mf1c1078[m HEAD@{111}: merge main: Fast-forward
+[33m82afd01[m HEAD@{112}: checkout: moving from main to master
+[33mf1c1078[m HEAD@{113}: checkout: moving from main to main
+[33mf1c1078[m HEAD@{114}: commit: commit
+[33m82afd01[m HEAD@{115}: merge master: Fast-forward
+[33me18588d[m HEAD@{116}: checkout: moving from master to main
+[33m82afd01[m HEAD@{117}: checkout: moving from master to master
+[33m82afd01[m HEAD@{118}: commit: commit
+[33me18588d[m HEAD@{119}: merge main: Fast-forward
+[33me4ef682[m HEAD@{120}: checkout: moving from main to master
+[33me18588d[m HEAD@{121}: checkout: moving from main to main
+[33me18588d[m HEAD@{122}: commit: commit
+[33me4ef682[m HEAD@{123}: merge master: Fast-forward
+[33me82474f[m HEAD@{124}: checkout: moving from master to main
+[33me4ef682[m HEAD@{125}: commit: commit
+[33me82474f[m HEAD@{126}: merge main: Fast-forward
+[33m3fbb689[m HEAD@{127}: checkout: moving from main to master
+[33me82474f[m HEAD@{128}: commit: commit
+[33m3fbb689[m HEAD@{129}: merge master: Fast-forward
+[33m709ed40[m HEAD@{130}: checkout: moving from master to main
+[33m3fbb689[m HEAD@{131}: commit: commit
+[33m709ed40[m HEAD@{132}: merge main: Fast-forward
+[33m6427f96[m HEAD@{133}: checkout: moving from main to master
+[33m709ed40[m HEAD@{134}: commit: commit
+[33m42048a1[m HEAD@{135}: commit (merge): Merge branch 'master' into main
+[33m07499e3[m HEAD@{136}: checkout: moving from master to main
+[33m6427f96[m HEAD@{137}: checkout: moving from master to master
+[33m6427f96[m HEAD@{138}: commit: commit
+[33mc089467[m HEAD@{139}: commit: hotfix
+[33mdb13f16[m HEAD@{140}: commit: hot fix
+[33m3242931[m HEAD@{141}: checkout: moving from main to master
+[33m07499e3[m HEAD@{142}: checkout: moving from master to main
+[33m3242931[m HEAD@{143}: checkout: moving from main to master
+[33m07499e3[m HEAD@{144}: checkout: moving from main to main
+[33m07499e3[m HEAD@{145}: commit: hotfix
+[33m3242931[m HEAD@{146}: merge master: Fast-forward
+[33mc5cfd11[m HEAD@{147}: checkout: moving from master to main
+[33m3242931[m HEAD@{148}: commit: raw file
+[33mc5cfd11[m HEAD@{149}: merge main: Fast-forward
+[33m01c68f6[m HEAD@{150}: checkout: moving from main to master
+[33mc5cfd11[m HEAD@{151}: commit: #include <stdio.h>
+[33mfade2b0[m HEAD@{152}: commit: hot fix
+[33mb98009d[m HEAD@{153}: commit: hotfix
+[33m9318acd[m HEAD@{154}: commit: hot update
+[33m01c68f6[m HEAD@{155}: merge master: Fast-forward
+[33m87f390d[m HEAD@{156}: checkout: moving from master to main
+[33m01c68f6[m HEAD@{157}: commit: lower_case alphabets
+[33m87f390d[m HEAD@{158}: merge main: Fast-forward
+[33mebff35a[m HEAD@{159}: checkout: moving from main to master
+[33m87f390d[m HEAD@{160}: checkout: moving from main to main
+[33m87f390d[m HEAD@{161}: commit: lower_case alphabets
+[33mcbeb632[m HEAD@{162}: commit: lower_case alphabets
+[33mebff35a[m HEAD@{163}: merge master: Fast-forward
+[33md5db39e[m HEAD@{164}: checkout: moving from master to main
+[33mebff35a[m HEAD@{165}: commit: hotfix
+[33m924dbb9[m HEAD@{166}: commit: task
+[33md5db39e[m HEAD@{167}: merge main: Fast-forward
+[33m690a7bc[m HEAD@{168}: checkout: moving from main to master
+[33md5db39e[m HEAD@{169}: commit: hotfix
+[33m090c94a[m HEAD@{170}: commit: last digit
+[33mbed838a[m HEAD@{171}: commit: changes
+[33m855dd2d[m HEAD@{172}: commit: Resources required for tasks
+[33mff753fc[m HEAD@{173}: commit: program requirements
+[33m6e1a0ff[m HEAD@{174}: commit: program requirements
+[33mf7c9794[m HEAD@{175}: commit: intel
+[33m632bbc4[m HEAD@{176}: commit: bytes
+[33m730542e[m HEAD@{177}: commit: all size of byte
+[33m701ce54[m HEAD@{178}: commit: all size bytes
+[33m5acfe81[m HEAD@{179}: commit: hotfix
+[33m7430d36[m HEAD@{180}: commit: new commit
+[33m1f7bd7e[m HEAD@{181}: commit: use print
+[33mb253f68[m HEAD@{182}: commit: hot fix
+[33m2d077a0[m HEAD@{183}: commit: hotfix
+[33meafb7ef[m HEAD@{184}: commit: 4-puts.c
+[33maf9e9a1[m HEAD@{185}: commit: display programming is like building
+[33mead63dd[m HEAD@{186}: commit: batch name
+[33m4f0ba0c[m HEAD@{187}: commit: 3-name project
+[33ma8fcebb[m HEAD@{188}: commit: assembler
+[33m847a5bd[m HEAD@{189}: commit: compile without linking
+[33m4f41bf3[m HEAD@{190}: commit: compile without linking
+[33mb5e6abf[m HEAD@{191}: commit: compile without script
+[33mffe81da[m HEAD@{192}: commit: preprocessor
+[33ma921d79[m HEAD@{193}: commit: changes
+[33m690a7bc[m HEAD@{194}: merge master: Fast-forward
+[33mf98a9bf[m HEAD@{195}: checkout: moving from master to main
+[33m690a7bc[m HEAD@{196}: commit: compile without linking
+[33mf98a9bf[m HEAD@{197}: checkout: moving from main to master
+[33mf98a9bf[m HEAD@{198}: checkout: moving from master to main
+[33mf98a9bf[m HEAD@{199}: commit: compile without linking
+[33m8b1c14a[m HEAD@{200}: commit: preprocessor
+[33m6a43cc4[m HEAD@{201}: commit: preprocessor
+[33m4267bf2[m HEAD@{202}: commit: preprocessor
+[33m1f78a2b[m HEAD@{203}: commit: first c-task commit
+[33mfb7887f[m HEAD@{204}: commit: c world
+[33m07741f7[m HEAD@{205}: commit (initial): 0-preprocessor
