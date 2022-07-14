@@ -8,15 +8,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	_putchar(dest);
-	_putchar("\n");
-	_putchar(src);
-	_strcat(dest, src);
-	_putchar(dest);
-	_putchar("\n");
-	_putchar(src);
-	_putchar("\n");
-	_putchar(dest);
+	strcat(dest, src);
 
-	return (0);
+	return (dest);
 }
