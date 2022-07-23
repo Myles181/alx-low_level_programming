@@ -4,7 +4,7 @@
  * main - Entry point
  * @argc: argument count
  * @argv: Vector argument
- * Return: Always 0.
+ * Return: Always 1.
  */
 int main(int argc, char *argv[])
 {
@@ -20,5 +20,5 @@ int main(int argc, char *argv[])
 		printf("Error");
 	}
 	putchar('\n');
-	return (0);
+	return (1);
 }
