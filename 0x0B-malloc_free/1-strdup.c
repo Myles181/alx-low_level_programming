@@ -24,10 +24,11 @@ char *_strdup(char *str)
 	if (copy == NULL)
 		return (NULL);
 
-	for (i = 0; i < size + 1; size++)
+	for (i = 0; i < size; i++)
 	{
 		copy[i] = str[i];
 	}
 	copy[size] = '\0';
+
 	return (copy);
 }
