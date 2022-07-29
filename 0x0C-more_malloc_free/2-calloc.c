@@ -4,7 +4,7 @@
  * _calloc - to allocate memory
  * @nmemb: number in bytes
  * @size: Second param
- * @Return: p
+ * Return: pointer p
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -14,14 +14,15 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	p = malloc(sizeof(nmemb) * size);
+	p = malloc(nmemb * size);
 	if (p  == NULL)
 		return (NULL);
 
-	while (i < size)
+	while (i < (nmemb * size))
 	{
 		p[i] = 1;
 		i++;
 	}
+	p[i] = '\0';
 	return (p);
 }
