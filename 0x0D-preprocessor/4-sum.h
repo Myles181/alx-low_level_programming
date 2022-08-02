@@ -1,6 +1,2 @@
-#ifndef SUM
-#define SUM
-
+#include <stdio.h>
 #define SUM(x, y) (x + y)
-
-#endif /*SUM*/
