@@ -2,14 +2,12 @@
 #include <stdlib.h>
 
 /**
- * main - check code
+ * main - print the file name
  *
  * Return: Always 0.
  */
-
-int main(int argc, char *argv[])
+int main(void)
 {
-	if (argc == 1)
-		printf("%s", argv[0]);
+	printf("%s\n", __FILE__);
 	return (0);
 }
