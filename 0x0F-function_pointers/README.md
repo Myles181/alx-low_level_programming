@@ -1,1 +1,1 @@
-This project is about pointers to arrays
+This project is about Function pointers
