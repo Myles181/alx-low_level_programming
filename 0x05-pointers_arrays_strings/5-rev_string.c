@@ -2,20 +2,18 @@
 #include <string.h>
 /**
  * rev_string - Entry point
- * @s: Write letters backward
+ * @	s: Write letters backward
  */
 void rev_string(char *s)
 {
-	int len, i = 0;
-	char str;
+	int i, len;
+	char temp;
 
 	len = strlen(s);
-
-	for (; i < len / 2 - 1; i++)
+	for (i = 0; i < len / 2; i++)
 	{
-		str = s[i];
+		temp = s[i];
 		s[i] = s[len - 1 - i];
-		s[len - 1 - i] = str;
+		s[len - 1 - i] = temp;
 	}
-	_putchar(*s);
 }
