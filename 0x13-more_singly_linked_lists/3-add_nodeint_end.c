@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * add_nodeint - add node at the end
+ * add_nodeint_end - add node at the end
  * @head: head pointer
  * @n: integer parameter
  * Return: temp
