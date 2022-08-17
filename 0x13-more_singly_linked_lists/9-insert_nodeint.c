@@ -1,6 +1,11 @@
 #include "lists.h"
 #include <stdlib.h>
 
+/**
+ * getsize - to get the number of elements in the linked lists
+ * @head: Head pointer
+ * Return: size
+ */
 int getsize(listint_t *head)
 {
 	int size = 0;
