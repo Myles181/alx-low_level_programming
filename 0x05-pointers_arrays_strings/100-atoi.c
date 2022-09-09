@@ -14,7 +14,7 @@ int _atoi(char *s)
 
 	while (s[i])
 	{
-		if (s[i] == '0')
+		if (s[i] == '-')
 		{
 			min *= -1;
 		}
@@ -29,10 +29,8 @@ int _atoi(char *s)
 		{
 			break;
 		}
-
 		i++;
 	}
-
 	ni *= min;
 
 	return (ni);
