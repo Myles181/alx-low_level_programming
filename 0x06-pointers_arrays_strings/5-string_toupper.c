@@ -6,10 +6,16 @@
  */
 char *string_toupper(char *n)
 {
-	int ascii;
-	char upr;
+	int i = 0;
 
-	ascii = n + 32;
-	upr = ascii;
-	_putchar(upr);
+	for (; n[i] != '\0'; i++)
+	{
+		/* 97 to 122 is a to b */
+		if (n[i] >= 97 && n[i] <= 122)
+		{
+			/* difference between lowercase to uppercase is -32 */
+			n[i] -= 32;
+		}
+	}
+	return (n);
 }
