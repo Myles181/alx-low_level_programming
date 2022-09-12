@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /**
  * _strchr - locates a character in a string
  * @s:First param
@@ -7,16 +8,15 @@
  */
 char *_strchr(char *s, char c)
 {
+	if (c == '\0')
+		return (s);
+
 	while (*s)
 	{
-		if (*s != c);
+		if (*s != c)
 			s++;
 		else
 			return (s);
 	}
-	if (c == '\0')
-		return (NULL);
-
-	return (0);
-
+	return (NULL);
 }
