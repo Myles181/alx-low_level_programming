@@ -35,7 +35,6 @@ void print_binary(unsigned long int n)
 		{
 			flag = 1;
 			_putchar('1');
-
 		}
 		else if (flag == 1 || dev == 1)
 		{
