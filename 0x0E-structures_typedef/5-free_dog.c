@@ -3,7 +3,7 @@
 
 /**
  * free_dog - write a function that frees dog
- * @d - parameter
+ * @d: parameter
  *
  * Return: Nothing
 */
