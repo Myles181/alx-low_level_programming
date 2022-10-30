@@ -2,6 +2,15 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * new_dog - Creates a new dog
+ *
+ * @name: Name of dog
+ * @age: Age of dog
+ * @owner: Name of owner
+ *
+ * Return: If succesful return my_dog, Else return NULL
+ */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *my_dog;
@@ -10,7 +19,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	if (name == NULL || owner == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 
 	if (!my_dog)
