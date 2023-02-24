@@ -6,6 +6,8 @@ RM = rm -f
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
 all: $(OBJ) $(SRC)
+	$(CC) $(CFALGS)   -c -o $(word 1, $OBJ) $(word 1, $(SRC))
+	$(CC) $(CFALGS)   -c -o $(word 2, $OBJ) $(word 2, $(SRC))
 	$(CC) $(CFALGS) $(OBJ) -o $(NAME)
 
 clean:
