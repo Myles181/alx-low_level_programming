@@ -1,13 +1,19 @@
 #include "search_algos.h"
 
 /**
+ * linear_search - Find a value in an array using
+ * linear Search algorithm
+ * @array: array of integers
+ * @size: size of the array
+ * @value: Value to be searched
+ * Return: index of Value or -1 for failure
  */
 int linear_search(int *array, size_t size, int value)
 {
 	int i;
 
 	if (array == NULL)
-		return -1;
+		return (-1);
 
 	for (i = 0; i < size; i++)
 	{
@@ -15,14 +21,5 @@ int linear_search(int *array, size_t size, int value)
 		if (array[i] == value)
 			return (i);
 	}
-	return -1;
-}
-int main(void)
-{
-	int array[10] = [2, 3, 4, 5, 6, 7, 7, 2, 8, 9];
-	size_t size = sizeof(array);
-
-	linear_search(array, size, 7);
-
-	return (0);
+	return (-1);
 }
