@@ -27,7 +27,7 @@ int jump_search(int *array, size_t size, int value)
 	/* Display range of sub-array in array */
 	printf("Value found between indexes [%ld] and [%ld]\n", start, end);
 	/* Linear search through sub-array */
-	for (i = start; i <= end; i++)
+	for (i = start; i <= size-1; i++)
 	{
 		if (array[i] == value)
 		{
