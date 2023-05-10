@@ -10,24 +10,25 @@
  */
 int jump_search(int *array, size_t size, int value)
 {
-	size_t i, start, end;
+	size_t i, left, right;
 
 	if (array == NULL)
 		return (-1);
 
-	start = 0;
-	end = sqrt(size);
+	left = 0;
+	right = (int)sqrt(size - 1);
 	/* Create sub-array using Jump search */
-	while ((array[end] < value) && (end < size))
+	printf("Value checked array[%ld] = [%d]\n", left, array[left]);
+	while ((array[right] < value) && (right < size))
 	{
-		printf("Value checked array[%ld] = [%d]\n", start, array[start]);
-		start = end;
-		end += sqrt(size);
+		left = right;
+		printf("Value checked array[%ld] = [%d]\n", left, array[left]);
+		right += (int)sqrt(size - 1);
 	}
 	/* Display range of sub-array in array */
-	printf("Value found between indexes [%ld] and [%ld]\n", start, end);
+	printf("Value found between indexes [%ld] and [%ld]\n", left, right);
 	/* Linear search through sub-array */
-	for (i = start; i <= size - 1; i++)
+	for (i = left; i <= size - 1; i++)
 	{
 		if (array[i] == value)
 		{
